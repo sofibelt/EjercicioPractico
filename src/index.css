@@ -48,3 +48,8 @@ code {
 #DemasTextoPortada{
   color:#FFFFFF
 }
+
+#Carousel{
+  width: 1350px;
+  border: white 20px solid;
+}

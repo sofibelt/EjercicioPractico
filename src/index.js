@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Menu from './Menu';
 import Imagenes from './Imagenes';
+import MiCarousel from './MiCarousel';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Menu />
     <Imagenes />
+    <MiCarousel />
   </React.StrictMode>,
   document.getElementById('root')
 );
