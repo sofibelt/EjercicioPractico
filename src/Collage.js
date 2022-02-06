@@ -7,7 +7,7 @@ function Collage() {
   const [seMuestra, cambiarSeMuestra] = useState(false);
 
   return (
-    <div>
+    <div id="Collage">
       <div id="PrimeraImagenNuevaColeccion" class="row">
         <div class="col-7 ">
           <div  class="row">
@@ -19,10 +19,9 @@ function Collage() {
                     <img  src={require('./img/paralimpicos.jpeg')}  id="PrimeraImagenCollage" class="EfectoPrimeraImagen"/>
                   )}
                   {!seMuestra && (
-                    <img  src={require('./img/silladeruedas.jpeg')}  id="PrimeraImagenCollage" class="EfectoPrimeraImagen"/>
+                    <img  src={require('./img/paralimpicos.jpeg')}  id="PrimeraImagenCollage" />
                   )}
                 </button>
-
               </div>
               <div  class="col-2 ">
                 <img  src={require('./img/paralimpicos.jpeg')}  id="SegundaImagenCollage" />

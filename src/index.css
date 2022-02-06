@@ -60,14 +60,8 @@ code {
 }
 
 #ImagenesNuevaColleccion{
-
-  border: white 20px solid;
   height: 350px;
   width: 250px;
-}
-
-#PrimeraImagenNuevaColeccion{
-  margin-left: 200px;
 }
 
 #PrimeraImagenNuevaColeccion{
@@ -75,8 +69,7 @@ code {
 }
 
 #Collage{
-  height: 350px;
-  width: 250px;
+  margin-top: 80px;
 }
 
 #PrimeraImagenCollage{
@@ -109,6 +102,74 @@ code {
 }
 
 
-.EfectoPrimeraImagen:hover {
+.EfectoPrimeraImagen{
   filter: opacity(.5);
+}
+
+#Opciones{
+  margin-top: 80px;
+}
+
+#BotonesOpciones{
+  margin-left: 10px;
+  width: 210px;
+}
+
+#FondoOpciones{
+  filter: grayscale(30%);
+  height: 500px;
+  width: 1350px;
+}
+
+#PadreOpciones {
+  position: relative;
+}
+
+.TextoOpciones{
+  position: absolute;
+  top: 10%;
+}
+
+#SegundoCollaje{
+  position: relative;
+  margin-top: 80px;
+}
+
+
+#PrimerFotoSegundoCollaje{
+  border: white 10px solid;
+  height: 450px;
+  width: 450px;
+}
+
+#SegundaFotoSegundoCollaje{
+  border: white 10px solid;
+  height: 450px;
+  width: 450px;
+}
+
+.TextoPrimeraFotoSegundoCollaje{
+  color:#FFFFFF;
+  position: absolute;
+  top: 45%;
+  left: 3%;
+}
+
+.BotonPrimeraFotoSegundoCollaje{
+  position: absolute;
+  top: 80%;
+  left: 15%;
+}
+
+.TextoSegundaFotoSegundoCollaje{
+  color:#FFFFFF;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.BotonSegundaFotoSegundoCollaje{
+  position: absolute;
+  top: 80%;
+  left: 55%;
 }
