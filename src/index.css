@@ -53,3 +53,19 @@ code {
   width: 1350px;
   border: white 20px solid;
 }
+
+#NuevaColeccion{
+  margin-top: 80px;
+  background-color: #59A54C;
+}
+
+#ImagenesNuevaColleccion{
+  background-color: #A54C4C;
+  border: white 20px solid;
+  height: 350px;
+  width: 250px;
+}
+
+#PrimeraImagenNuevaColeccion{
+  margin-left: 200px;
+}

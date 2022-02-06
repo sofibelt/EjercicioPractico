@@ -4,6 +4,7 @@ import './index.css';
 import Menu from './Menu';
 import Imagenes from './Imagenes';
 import MiCarousel from './MiCarousel';
+import NuevaColeccion from './NuevaColeccion';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -11,6 +12,9 @@ ReactDOM.render(
     <Menu />
     <Imagenes />
     <MiCarousel />
+    <NuevaColeccion  titulo="NUEVA COLECCION"/>
+    <NuevaColeccion  titulo="AYUDAS PARA LA MARCHA"/>
+    <NuevaColeccion  titulo="TERAPIAS RESPIRATORIAS"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
