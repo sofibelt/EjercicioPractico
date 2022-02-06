@@ -12,6 +12,39 @@ code {
     monospace;
 }
 
+#Menu{
+  background-color: #F8F9F9;
+}
+
 #BarraBusqueda{
 			width: 1000px;
-		}
+
+}
+
+#BotonesBusqueda{
+  font-size: 10px;
+  font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+}
+
+#TextoBarraBusqueda{
+  font-size: 10px;
+}
+
+#ImagenPortada{
+  height: 500px;
+  width: 1350px;
+}
+
+#TextoPortada{
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+
+#TextoMAS{
+  color:#F8FF11
+}
+
+#DemasTextoPortada{
+  color:#FFFFFF
+}
