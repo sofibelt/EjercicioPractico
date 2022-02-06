@@ -56,11 +56,11 @@ code {
 
 #NuevaColeccion{
   margin-top: 80px;
-  background-color: #59A54C;
+
 }
 
 #ImagenesNuevaColleccion{
-  background-color: #A54C4C;
+
   border: white 20px solid;
   height: 350px;
   width: 250px;
@@ -68,4 +68,47 @@ code {
 
 #PrimeraImagenNuevaColeccion{
   margin-left: 200px;
+}
+
+#PrimeraImagenNuevaColeccion{
+  margin-left: 200px;
+}
+
+#Collage{
+  height: 350px;
+  width: 250px;
+}
+
+#PrimeraImagenCollage{
+  border: white 10px solid;
+  height: 250px;
+  width: 400px;
+}
+
+#SegundaImagenCollage{
+  border: white 10px solid;
+  margin-left: 250px;
+  height: 250px;
+  width: 250px;
+}
+#TerceraImagenCollage{
+  border: white 10px solid;
+  height: 250px;
+  width: 250px;
+}
+#CuartaImagenCollage{
+  border: white 10px solid;
+  margin-left: 100px;
+  height: 250px;
+  width: 400px;
+}
+#QuintaImagenCollage{
+  border: white 10px solid;
+  height: 500px;
+  width: 270px;
+}
+
+
+.EfectoPrimeraImagen:hover {
+  filter: opacity(.5);
 }
