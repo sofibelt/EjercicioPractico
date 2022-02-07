@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import Servicios from './Servicios';
 
 
 function Collage() {
@@ -20,7 +21,7 @@ function Collage() {
                   onMouseEnter={() => cambiarSeMuestraPrimeraImagen(true)}
                   onMouseLeave={() => cambiarSeMuestraPrimeraImagen(false)}>
                   {seMuestraPrimeraImagen && (
-                    <img  src={require('./img/paralimpicos.jpeg')}  id="PrimeraImagenCollage" class="EfectoImagen"/>
+                    <Servicios frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="PrimeraImagenCollage" />
                   )}
                   {!seMuestraPrimeraImagen && (
                     <img  src={require('./img/paralimpicos.jpeg')}  id="PrimeraImagenCollage" />
@@ -32,7 +33,7 @@ function Collage() {
                   onMouseEnter={() => cambiarSeMuestraSegundaImagen(true)}
                   onMouseLeave={() => cambiarSeMuestraSegundaImagen(false)}>
                   {seMuestraSegundaImagen && (
-                    <img  src={require('./img/paralimpicos.jpeg')}  id="SegundaImagenCollage" class="EfectoImagen"/>
+                    <Servicios frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="SegundaImagenCollage" />
                   )}
                   {!seMuestraSegundaImagen && (
                     <img  src={require('./img/paralimpicos.jpeg')}  id="SegundaImagenCollage" />
@@ -46,7 +47,7 @@ function Collage() {
                   onMouseEnter={() => cambiarseMuestraTerceraImagen(true)}
                   onMouseLeave={() => cambiarseMuestraTerceraImagen(false)}>
                   {seMuestraTerceraImagen && (
-                    <img  src={require('./img/paralimpicos.jpeg')}  id="TerceraImagenCollage" class="EfectoImagen"/>
+                    <Servicios frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="TerceraImagenCollage" />
                   )}
                   {!seMuestraTerceraImagen && (
                     <img  src={require('./img/paralimpicos.jpeg')}  id="TerceraImagenCollage" />
@@ -58,7 +59,7 @@ function Collage() {
                   onMouseEnter={() => cambiarseMuestraCuartaImagen(true)}
                   onMouseLeave={() => cambiarseMuestraCuartaImagen(false)}>
                   {seMuestraCuartaImagen && (
-                    <img  src={require('./img/paralimpicos.jpeg')}  id="CuartaImagenCollage" class="EfectoImagen"/>
+                    <Servicios frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="CuartaImagenCollage" />
                   )}
                   {!seMuestraCuartaImagen && (
                     <img  src={require('./img/paralimpicos.jpeg')}  id="CuartaImagenCollage" />
@@ -72,7 +73,7 @@ function Collage() {
             onMouseEnter={() => cambiarseMuestraQuintaImagen(true)}
             onMouseLeave={() => cambiarseMuestraQuintaImagen(false)}>
             {seMuestraQuintaImagen && (
-              <img  src={require('./img/paralimpicos.jpeg')}  id="QuintaImagenCollage" class="EfectoImagen"/>
+              <Servicios frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="QuintaImagenCollage" />
             )}
             {!seMuestraQuintaImagen && (
               <img  src={require('./img/paralimpicos.jpeg')}  id="QuintaImagenCollage" />

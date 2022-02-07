@@ -72,10 +72,21 @@ code {
   margin-top: 80px;
 }
 
+#ImagenCollage{
+  position: relative;
+}
+
 #PrimeraImagenCollage{
   border: white 10px solid;
   height: 250px;
   width: 400px;
+}
+
+.TextoPrimeraImagenCollaje{
+  color:#FFFFFF;
+  position: absolute;
+  top: 25%;
+  left: 3%;
 }
 
 #SegundaImagenCollage{
