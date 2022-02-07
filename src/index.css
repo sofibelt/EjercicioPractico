@@ -80,18 +80,17 @@ code {
 
 #SegundaImagenCollage{
   border: white 10px solid;
-  margin-left: 250px;
   height: 250px;
-  width: 250px;
+  width: 280px;
 }
+
 #TerceraImagenCollage{
   border: white 10px solid;
   height: 250px;
-  width: 250px;
+  width: 280px;
 }
 #CuartaImagenCollage{
   border: white 10px solid;
-  margin-left: 100px;
   height: 250px;
   width: 400px;
 }
@@ -101,8 +100,12 @@ code {
   width: 270px;
 }
 
+button{
+  border: white 1px solid;
+}
 
-.EfectoPrimeraImagen{
+
+.EfectoImagen{
   filter: opacity(.5);
 }
 
