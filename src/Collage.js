@@ -12,11 +12,11 @@ function Collage() {
   const [seMuestraQuintaImagen, cambiarseMuestraQuintaImagen] = useState(false);
 
   return (
-    <div class="offset-1" id="Collage">
-      <div  class="row">
-        <div class="col-7 ">
-          <div  class="row">
-              <div class="col-7 ">
+    <div className="offset-1" id="Collage">
+      <div  className="row">
+        <div className="col-7 ">
+          <div  className="row">
+              <div className="col-7 ">
                 <button
                   onMouseEnter={() => cambiarSeMuestraPrimeraImagen(true)}
                   onMouseLeave={() => cambiarSeMuestraPrimeraImagen(false)}>
@@ -28,7 +28,7 @@ function Collage() {
                   )}
                 </button>
               </div>
-              <div class="col-1 ">
+              <div className="col-1 ">
                 <button
                   onMouseEnter={() => cambiarSeMuestraSegundaImagen(true)}
                   onMouseLeave={() => cambiarSeMuestraSegundaImagen(false)}>
@@ -41,8 +41,8 @@ function Collage() {
                 </button>
               </div>
           </div>
-          <div  class="row">
-              <div  class="col-5 ">
+          <div  className="row">
+              <div  className="col-5 ">
                 <button
                   onMouseEnter={() => cambiarseMuestraTerceraImagen(true)}
                   onMouseLeave={() => cambiarseMuestraTerceraImagen(false)}>
@@ -54,7 +54,7 @@ function Collage() {
                   )}
                 </button>
               </div>
-              <div class="col-3 ">
+              <div className="col-3 ">
                 <button
                   onMouseEnter={() => cambiarseMuestraCuartaImagen(true)}
                   onMouseLeave={() => cambiarseMuestraCuartaImagen(false)}>
@@ -68,7 +68,7 @@ function Collage() {
               </div>
           </div>
         </div>
-        <div class="col-2 ">
+        <div className="col-2 ">
           <button
             onMouseEnter={() => cambiarseMuestraQuintaImagen(true)}
             onMouseLeave={() => cambiarseMuestraQuintaImagen(false)}>

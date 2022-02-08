@@ -11,7 +11,7 @@ function Menu() {
           <div className="col-8 ">
             <form id="BarraBusqueda" className="form-inline">
               <div className="input-group ">
-                <input id="TextoBarraBusqueda" type="text" className="form-control" placeholder="¿QUÉ ESTÁS BUSCANDO? ESCRÍBELO AQUÍ..." />
+                <input id="TextoBaclassNamesqueda" type="text" className="form-control" placeholder="¿QUÉ ESTÁS BUSCANDO? ESCRÍBELO AQUÍ..." />
                 <button className="input-group-text" id="basic-addon1"><img src={require('./img/buscar.png')} width="20px" /></button>
                 <button id="BotonesBusqueda" type="button" className="btn btn-link">MIS PEDIDOS</button>
                 <button id="BotonesBusqueda" type="button" className="btn btn-link">HOLA ALIAD@</button>

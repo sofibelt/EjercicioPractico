@@ -4,27 +4,27 @@ import 'bootstrap/dist/css/bootstrap.css';
 function SegundoCollage() {
 
   return (
-    <div id="SegundoCollaje" class="offset-2">
-      <div  class="row">
-        <div class="col-5 ">
+    <div id="SegundoCollaje" className="offset-2">
+      <div  className="row">
+        <div className="col-5 ">
           <img id="PrimerFotoSegundoCollaje" src={require('./img/paralimpicos.jpeg')}  />
-          <div class="TextoPrimeraFotoSegundoCollaje">
+          <div className="TextoPrimeraFotoSegundoCollaje">
             <h1>Empresa en </h1>
             <h1>crecimiento </h1>
           </div>
-          <div class="BotonPrimeraFotoSegundoCollaje">
-            <button class="btn btn-warning">VER PRODUCTOS</button>
+          <div className="BotonPrimeraFotoSegundoCollaje">
+            <button className="btn btn-warning">VER PRODUCTOS</button>
           </div>
         </div>
-        <div  class="col-1 ">
+        <div  className="col-1 ">
           <img id="SegundaFotoSegundoCollaje" src={require('./img/paralimpicos.jpeg')}   />
-          <div class="TextoSegundaFotoSegundoCollaje">
+          <div className="TextoSegundaFotoSegundoCollaje">
             <h1>Complemento </h1>
             <h1>línea de</h1>
             <h1>oximetría</h1>
           </div>
-          <div class="BotonSegundaFotoSegundoCollaje">
-            <button class="btn btn-warning">VER PRODUCTOS</button>
+          <div className="BotonSegundaFotoSegundoCollaje">
+            <button className="btn btn-warning">VER PRODUCTOS</button>
           </div>
         </div>
       </div>

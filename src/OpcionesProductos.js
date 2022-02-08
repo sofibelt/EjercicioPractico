@@ -12,9 +12,9 @@ function NuevaColeccion(props) {
 
   return (
     <div id="NuevaColeccion">
-      <h2 id="TextoOpcionesProductos" class="text-center">{props.titulo}</h2>
+      <h2 id="TextoOpcionesProductos" className="text-center">{props.titulo}</h2>
       <div id="PrimeraImagenNuevaColeccion"  className="row ">
-            <div id="ImagenesNuevaColleccion" class="form-group  "  >
+            <div id="ImagenesNuevaColleccion" className="form-group  "  >
               <button
                 onMouseEnter={() => cambiarSeMuestraPrimeraImagen(true)}
                 onMouseLeave={() => cambiarSeMuestraPrimeraImagen(false)}>
@@ -26,7 +26,7 @@ function NuevaColeccion(props) {
                 )}
               </button>
             </div>
-            <div id="ImagenesNuevaColleccion" class="form-group">
+            <div id="ImagenesNuevaColleccion" className="form-group">
               <button
                 onMouseEnter={() => cambiarSeMuestraSegundaImagen(true)}
                 onMouseLeave={() => cambiarSeMuestraSegundaImagen(false)}>
@@ -38,7 +38,7 @@ function NuevaColeccion(props) {
                 )}
               </button>
             </div>
-            <div id="ImagenesNuevaColleccion" class="form-group" >
+            <div id="ImagenesNuevaColleccion" className="form-group" >
               <button
                 onMouseEnter={() => cambiarseMuestraTerceraImagen(true)}
                 onMouseLeave={() => cambiarseMuestraTerceraImagen(false)}>
@@ -50,7 +50,7 @@ function NuevaColeccion(props) {
                 )}
               </button>
             </div>
-            <div id="ImagenesNuevaColleccion" class="form-group  ">
+            <div id="ImagenesNuevaColleccion" className="form-group  ">
               <button
                 onMouseEnter={() => cambiarseMuestraCuartaImagen(true)}
                 onMouseLeave={() => cambiarseMuestraCuartaImagen(false)}>

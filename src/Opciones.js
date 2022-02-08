@@ -13,14 +13,14 @@ function Opciones() {
 
   return (
     <div id="Opciones">
-      <div class="btn-group offset-3" role="group" aria-label="Basic example">
-        <button id="BotonesOpciones" type="button" class="btn btn-primary"  onClick={() => (cambiaPrimeraOpcion(true), cambiaSegundaOpcion(false), cambiaTerceraOpcion(false))}>SILLA DE RUEDAS</button>
-        <button id="BotonesOpciones" type="button" class="btn btn-primary"  onClick={() => (cambiaSegundaOpcion(true), cambiaPrimeraOpcion(false), cambiaTerceraOpcion(false))}>TERAPIA EN EL HOGAR</button>
-        <button id="BotonesOpciones" type="button" class="btn btn-primary"  onClick={() => (cambiaTerceraOpcion(true), cambiaSegundaOpcion(false), cambiaPrimeraOpcion(false))}>MOVILIDAD</button>
+      <div className="btn-group offset-3" role="group" aria-label="Basic example">
+        <button id="BotonesOpciones" type="button" className="btn btn-primary"  onClick={() => (cambiaPrimeraOpcion(true), cambiaSegundaOpcion(false), cambiaTerceraOpcion(false))}>SILLA DE RUEDAS</button>
+        <button id="BotonesOpciones" type="button" className="btn btn-primary"  onClick={() => (cambiaSegundaOpcion(true), cambiaPrimeraOpcion(false), cambiaTerceraOpcion(false))}>TERAPIA EN EL HOGAR</button>
+        <button id="BotonesOpciones" type="button" className="btn btn-primary"  onClick={() => (cambiaTerceraOpcion(true), cambiaSegundaOpcion(false), cambiaPrimeraOpcion(false))}>MOVILIDAD</button>
       </div>
       <div id="PadreOpciones">
           <img id="FondoOpciones" src={require('./img/fondosilladeruedas.jpeg')} />
-          <div class="TextoOpciones">
+          <div className="TextoOpciones">
             {primeraOpcion && (
               <OpcionesProductos  titulo="SILLAS DE RUEDAS"/>
             )}

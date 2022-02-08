@@ -7,28 +7,28 @@ function MiCarousel() {
     <div id="Carousel">
       <Carousel>
         <Carousel.Item interval={1500}>
-          <div class="row">
-                <div class="col">
+          <div className="row">
+                <div className="col">
                 <button  ><img  className="d-block w-100" src={require('./img/foto1.webp')} alt="Image One"/> Foto 1</button>
                 </div>
-                <div class="col">
+                <div className="col">
                 <button  ><img className="d-block w-100" src={require('./img/foto1.webp')} alt="Image One"/> Foto 1</button>
                 </div>
-                <div class="col">
+                <div className="col">
                 <button  ><img className="d-block w-100" src={require('./img/foto1.webp')} alt="Image One"/> Foto 1</button>
                 </div>
             </div>
 
         </Carousel.Item>
         <Carousel.Item interval={1500}>
-          <div class="row">
-            <div class="col">
+          <div className="row">
+            <div className="col">
             <button  ><img className="d-block w-100" src={require('./img/foto1.webp')} alt="Image One"/> Foto 1</button>
             </div>
-            <div class="col">
+            <div className="col">
             <button  ><img className="d-block w-100" src={require('./img/foto1.webp')} alt="Image One"/> Foto 1</button>
             </div>
-            <div class="col">
+            <div className="col">
             <button  ><img className="d-block w-100" src={require('./img/foto1.webp')} alt="Image One"/> Foto 1</button>
             </div>
           </div>

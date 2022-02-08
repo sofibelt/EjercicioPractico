@@ -8,6 +8,7 @@ import NuevaColeccion from './NuevaColeccion';
 import Collage from './Collage';
 import Opciones from './Opciones';
 import SegundoCollaje from './SegundoCollaje';
+import BarraFinal from './BarraFinal';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -21,6 +22,7 @@ ReactDOM.render(
     <SegundoCollaje />
     <NuevaColeccion  titulo="AYUDAS PARA LA MARCHA"/>
     <NuevaColeccion  titulo="TERAPIAS RESPIRATORIAS"/>
+    <BarraFinal/>
   </React.StrictMode>,
   document.getElementById('root')
 );
