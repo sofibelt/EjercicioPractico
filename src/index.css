@@ -56,8 +56,8 @@ code {
 
 #NuevaColeccion{
   margin-top: 80px;
-
 }
+
 
 #ImagenesNuevaColleccion{
   height: 350px;
@@ -122,6 +122,11 @@ button{
 
 #Opciones{
   margin-top: 80px;
+}
+
+#TextoOpcionesProductos{
+  color:#FFFFFF;
+  margin-left: 200px;
 }
 
 #BotonesOpciones{
