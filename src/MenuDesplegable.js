@@ -2,10 +2,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 import React, {Component} from 'react';
 import OpcionesMenu from "./OpcionesMenu";
 
-export default class Ejemplo extends Component{
+export default class MenuDesplegable extends Component{
 
     state={
-      mostrarMenu:false
+      mostrarMenu:true
     }
     
     

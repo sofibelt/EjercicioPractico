@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import Ejemplo from "./Ejemplo";
+import MenuDesplegable from "./MenuDesplegable";
 
 function Menu() {
   return (
@@ -25,7 +25,7 @@ function Menu() {
 
       <div className="row ">
             <div>
-                <Ejemplo />
+                <MenuDesplegable />
             </div>
       </div>
 
