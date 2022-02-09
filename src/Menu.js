@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
+import Ejemplo from "./Ejemplo";
 
 function Menu() {
   return (
@@ -22,19 +23,9 @@ function Menu() {
         </div>
       </nav>
 
-      <div className="row offset-1">
-            <div className="col-1 ">
-              <nav className="navbar  navbar-light bg-light">
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon"></span>
-                </button>
-              </nav>
-            </div>
-            <div className="col-8 offset-1">
-              <button id="BotonesBusqueda" type="button" className="btn btn-link">MOVILIDAD</button>
-              <button id="BotonesBusqueda" type="button" className="btn btn-link">CUIDADO EN EL HOGAR</button>
-              <button id="BotonesBusqueda" type="button" className="btn btn-link">PROFESIONALES DE LA SALUD</button>
-              <button id="BotonesBusqueda" type="button" className="btn btn-link">TAPABOCAS Y DESINFECCIÓN</button>
+      <div className="row ">
+            <div>
+                <Ejemplo />
             </div>
       </div>
 

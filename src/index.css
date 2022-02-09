@@ -18,7 +18,11 @@ code {
 
 #BarraBusqueda{
 			width: 1000px;
+}
 
+#Hamburguesa{
+  background-color: #2ACD1B
+  ;
 }
 
 #BotonesBusqueda{
@@ -29,6 +33,7 @@ code {
 #TextoBarraBusqueda{
   font-size: 10px;
 }
+
 
 #ImagenPortada{
   height: 500px;
