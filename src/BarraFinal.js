@@ -41,11 +41,23 @@ function BarraFinal() {
          <h6 id="TextoBarraFinalTitulo">SOBRE NOSOTROS</h6>
          <input  type="text"  placeholder="" />
          <div className="row"> 
-          <div className="col-1 ">
-            <button></button>
+          <div id="DivBotonBarraFinal" className="col-2 ">
+            <button id="BotonBarraFinal"> <img src={require('./img/BotonTerminosYCondiciones.jpg')}  /></button>
             </div>
           <div className="col-10 ">
             <p id="TextoBarraFinal">Aceptación de términos y condiciones</p>
+          </div>
+          <p id="TextoBarraFinal">Nuestros metodos de pago</p>
+          <div className="row">
+            <div className="col-3">
+              <img src={require('./img/MercadoPago.png')}  width="50px"/>
+            </div>
+            <div className="col-3">
+              <img src={require('./img/AmericanExpress.png')}  width="50px"/>
+            </div>
+            <div className="col-3">
+              <img src={require('./img/Baloto.png')}  width="100px"/>
+            </div>
           </div>
           </div>
         </div>

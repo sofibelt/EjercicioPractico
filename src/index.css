@@ -213,3 +213,11 @@ button{
   margin-top: 10px;
   color:#FFFFFF;
 }
+
+#BotonBarraFinal{
+  background-color:#000000;
+}
+
+#DivBotonBarraFinal{
+  border: rgb(0, 0, 0) 1px solid;
+}
