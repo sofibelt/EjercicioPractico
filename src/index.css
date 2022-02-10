@@ -22,6 +22,8 @@ code {
 
 .LinkMenu{
   text-decoration: none;
+  font-size: 10px;
+  font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
 }
 
 #BotonesBusqueda{

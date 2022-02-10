@@ -23,10 +23,8 @@ export default class MenuDesplegable extends Component{
       const seMuestraMenu= this.state.mostrarMenu;
       return (
         <div class=" offset-1">
-        <div className="col-1 "> <button type="button" onClick={this.cambiarEstado}><img src={require('./img/menu.png')} width="30px" /></button></div>
-        <div className="col-10 ">
+         <button type="button" onClick={this.cambiarEstado}><img src={require('./img/menu.png')} width="30px" /></button>
           {seMuestraMenu ? <OpcionesMenu />:<div></div>}
-        </div>
       </div>
       );
     }
