@@ -12,7 +12,7 @@ function Collage() {
   const [seMuestraQuintaImagen, cambiarseMuestraQuintaImagen] = useState(false);
 
   return (
-    <div className="offset-1" id="Collage">
+    <div className="offset-2" id="Collage">
       <div  className="row">
         <div className="col-7 ">
           <div  className="row">
@@ -21,10 +21,10 @@ function Collage() {
                   onMouseEnter={() => cambiarSeMuestraPrimeraImagen(true)}
                   onMouseLeave={() => cambiarSeMuestraPrimeraImagen(false)}>
                   {seMuestraPrimeraImagen && (
-                    <Servicios frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="PrimeraImagenCollage" />
+                    <Servicios nomImagen="collageimg1.jpg" frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="PrimeraImagenCollage" />
                   )}
                   {!seMuestraPrimeraImagen && (
-                    <img  src={require('./img/paralimpicos.jpeg')}  id="PrimeraImagenCollage" />
+                    <img  src={require('./img/collageimg1.jpg')}  id="PrimeraImagenCollage" />
                   )}
                 </button>
               </div>
@@ -33,7 +33,7 @@ function Collage() {
                   onMouseEnter={() => cambiarSeMuestraSegundaImagen(true)}
                   onMouseLeave={() => cambiarSeMuestraSegundaImagen(false)}>
                   {seMuestraSegundaImagen && (
-                    <Servicios frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="SegundaImagenCollage" />
+                    <Servicios nomImagen="paralimpicos.jpeg" frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="SegundaImagenCollage" />
                   )}
                   {!seMuestraSegundaImagen && (
                     <img  src={require('./img/paralimpicos.jpeg')}  id="SegundaImagenCollage" />
@@ -47,7 +47,7 @@ function Collage() {
                   onMouseEnter={() => cambiarseMuestraTerceraImagen(true)}
                   onMouseLeave={() => cambiarseMuestraTerceraImagen(false)}>
                   {seMuestraTerceraImagen && (
-                    <Servicios frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="TerceraImagenCollage" />
+                    <Servicios nomImagen="paralimpicos.jpeg" frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="TerceraImagenCollage" />
                   )}
                   {!seMuestraTerceraImagen && (
                     <img  src={require('./img/paralimpicos.jpeg')}  id="TerceraImagenCollage" />
@@ -59,10 +59,10 @@ function Collage() {
                   onMouseEnter={() => cambiarseMuestraCuartaImagen(true)}
                   onMouseLeave={() => cambiarseMuestraCuartaImagen(false)}>
                   {seMuestraCuartaImagen && (
-                    <Servicios frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="CuartaImagenCollage" />
+                    <Servicios nomImagen="collageimg1.jpg" frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="CuartaImagenCollage" />
                   )}
                   {!seMuestraCuartaImagen && (
-                    <img  src={require('./img/paralimpicos.jpeg')}  id="CuartaImagenCollage" />
+                    <img  src={require('./img/collageimg1.jpg')}  id="CuartaImagenCollage" />
                   )}
                 </button>
               </div>
@@ -73,10 +73,10 @@ function Collage() {
             onMouseEnter={() => cambiarseMuestraQuintaImagen(true)}
             onMouseLeave={() => cambiarseMuestraQuintaImagen(false)}>
             {seMuestraQuintaImagen && (
-              <Servicios frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="QuintaImagenCollage" />
+              <Servicios nomImagen="collageimg5.jpg" frase="¿Por qué elegirnos?" boton="CONOCE MÁS DE NOSOTROS" imagen="QuintaImagenCollage" />
             )}
             {!seMuestraQuintaImagen && (
-              <img  src={require('./img/paralimpicos.jpeg')}  id="QuintaImagenCollage" />
+              <img  src={require('./img/collageimg5.jpg')}  id="QuintaImagenCollage" />
             )}
           </button>
         </div>
