@@ -22,12 +22,12 @@ export default class MenuDesplegable extends Component{
     render(){
       const seMuestraMenu= this.state.mostrarMenu;
       return (
-        <nav class=" offset-1">
-        <button type="button" onClick={this.cambiarEstado}><img src={require('./img/menu.png')} width="30px" /></button>
-        <div >
+        <div class=" offset-1">
+        <div className="col-1 "> <button type="button" onClick={this.cambiarEstado}><img src={require('./img/menu.png')} width="30px" /></button></div>
+        <div className="col-10 ">
           {seMuestraMenu ? <OpcionesMenu />:<div></div>}
         </div>
-      </nav>
+      </div>
       );
     }
   
