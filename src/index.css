@@ -203,3 +203,13 @@ button{
   background-color:#000000;
   height: 300px;
 }
+
+#TextoBarraFinalTitulo{
+  margin-top: 10px;
+  color:#ffe81b;
+}
+
+#TextoBarraFinal{
+  margin-top: 10px;
+  color:#FFFFFF;
+}
