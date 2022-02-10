@@ -35,15 +35,20 @@ code {
   font-size: 10px;
 }
 
+#DivPortada{
+  position: relative;
+}
+
 
 #ImagenPortada{
+  
   height: 500px;
   width: 1350px;
 }
 
 #TextoPortada{
   position: absolute;
-  top: 45%;
+  top: 25%;
   left: 10%;
 }
 

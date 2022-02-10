@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function Imagenes() {
   return (
-    <div >
+    <div id="DivPortada">
       <img id="ImagenPortada" src={require('./img/foto1.webp')}/>
 
         <div id="TextoPortada" >
